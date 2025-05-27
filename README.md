@@ -1,4 +1,4 @@
-# Aplicación Todo en Laravel
+# Aplicación To-Do en Laravel
 
 Esta es una aplicación sencilla de gestión de tareas (To-Do List) desarrollada con Laravel. Permite crear, modificar, eliminar y gestionar el estado de las tareas de manera fácil y rápida.
 
