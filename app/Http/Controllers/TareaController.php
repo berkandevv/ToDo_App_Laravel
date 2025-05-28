@@ -11,7 +11,7 @@ class TareaController extends Controller
     public function index()
     {
         $tareas = Tarea::all();
-        return view('tareas.index', compact('tareas'));
+        return view('index', compact('tareas'));
     }
 
     // Mostrar formulario de creación
@@ -43,7 +43,7 @@ class TareaController extends Controller
     // Mostrar formulario de edición
     public function edit(Tarea $tarea)
     {
-        return view('tareas.edit', compact('tarea'));
+        return view('edit', compact('tarea'));
     }
 
     // Actualizar tarea
